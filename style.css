@@ -1,0 +1,42 @@
+/* Global Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #dff9fb;
+}
+
+h2{
+    font-size: 52px;
+    font-weight: 300;
+}
+
+.value{
+font-size: 62px;
+margin: 20px 0;
+}
+
+.btn{
+  font-size: 18px; 
+  padding: 10px 20px; 
+  border-radius: 8px;
+  text-transform: uppercase;
+  background-color: transparent;
+  translate: 0.3s;
+}
+.btn:hover{
+    background-color: #636e72;
+    color: #fff;
+}
+
+.reset{
+    margin: 0px 20px;
+}
